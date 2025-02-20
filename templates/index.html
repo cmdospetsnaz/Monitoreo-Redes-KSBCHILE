@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Monitoreo de Redes</title>
+    <!-- Incluir CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Incluir CSS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4 text-center">
+            Monitoreo de Redes 
+
+            <img src="{{ url_for('static', filename='icons/KSB_Logo.png') }}" alt="Logo" class="logo">
+        </h1>
+        <div class="table-responsive mt-4">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>IP</th>
+                        <th>Estado</th>
+                        <th>Región</th>
+                        <th>Ciudad</th>
+                        <th>País</th>
+                        <th>Nombre del Host</th>
+                        <th>Hora</th>
+                        <th>Ubicación</th>
+                    </tr>
+                </thead>
+                <tbody id="ip-table-body">
+                </tbody>
+            </table>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <!-- Contenedor de Toasts -->
+    <div class="toast-container"></div>
+
+    <!-- Incluir JS de Bootstrap, Leaflet y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <footer>
+        &copy; Hecho por Javier Aravena Contacto: jav.aravena.ara@gmail.com Para KSBCHILE 2025
+    </footer>
+</body>
+</html>
