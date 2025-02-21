@@ -152,7 +152,7 @@ $(document).ready(function() {
     }
 
     // Actualizar el estado cada 10 segundos
-    setInterval(fetchStatus, 10000);
+    setInterval(fetchStatus, 1000);
 
     // Mantener mostrando el toast cada 40 segundos
     setInterval(function() {

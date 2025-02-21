@@ -74,7 +74,7 @@ def check_ip_status(ip):
 def get_ip_status_and_details(ip):
     status = check_ip_status(ip)
     details = get_local_ip_details(ip)
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%H:%M:%S %d-%m")
     details["Hora"] = current_time
     details["Estado"] = status
     details["IP"] = ip  # Añadir IP al diccionario
