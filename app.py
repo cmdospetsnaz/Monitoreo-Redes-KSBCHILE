@@ -89,11 +89,17 @@ def monitor_network():
                 if ip not in down_since:
                     down_since[ip] = {"first_down": datetime.now(), "last_email": None}
                 else:
-                    if datetime.now() - down_since[ip]["first_down"] > timedelta(minutes=1):
-                        if down_since[ip]["last_email"] is None or datetime.now() - down_since[ip]["last_email"] > timedelta(minutes=30):
-                            details = get_ip_status_and_details(ip)
+                    elapsed = datetime.now() - down_since[ip]["first_down"]
+                    if elapsed > timedelta(seconds=5):
+                        details = get_ip_status_and_details(ip)
+                        details["Estado"] = "Caída"
+                        if details["Estado"] == "Caída" and (down_since[ip]["last_email"] is None or datetime.now() - down_since[ip]["last_email"] > timedelta(minutes=30)):
                             send_email(ip, details)
                             down_since[ip]["last_email"] = datetime.now()
+                    else:
+                        details = get_ip_status_and_details(ip)
+                        details["Estado"] = "Micro Corte"
+                        print(f"IP {ip} está en Micro Corte")
             else:
                 if ip in down_since:
                     del down_since[ip]

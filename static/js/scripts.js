@@ -12,38 +12,38 @@ $(document).ready(function() {
         "Antofagasta": {
             coords: [-23.698168, -70.419235],
             address: "Avenida de la Minería 265, La Negra Antofagasta",
-            phone: "+56 55 263 8900",
-            email: "cl.anfofagasta@ksb.com"
+            phone: "+56 2 1234 5678",
+            email: "antofagasta@sucursales.cl"
         },
         "Coquimbo": {
             coords: [-29.971910, -71.274651],
             address: "Calle Nueva Dos 1251, Barrio Industrial Coquimbo",
-            phone: "+56 51 223 9714",
-            email: "cl.coquimbo@ksb.com"
+            phone: "+56 2 8765 4321",
+            email: "coquimbo@sucursales.cl"
         },
         "Concepción": {
             coords: [-36.799877, -73.073631],
             address: "Vasco Nuñez de Balboa 9060, Parque Industrial San Andrés Concepción",
-            phone: "+56 41 240 8000",
-            email: "cl.concepcion@ksb.com"
+            phone: "+56 2 2345 6789",
+            email: "concepcion@sucursales.cl"
         },
         "Temuco": {
             coords: [-38.767284, -72.613220],
             address: "Camino A Aeropuerto Maquehue 3081, Bodega N°4, Work Center Maquehue Temuco",
-            phone: "+56 45 225 4545",
-            email: "cl.temuco@ksb.com"
+            phone: "+56 2 3456 7890",
+            email: "temuco@sucursales.cl"
         },
         "Puerto Montt": {
             coords: [-41.472698, -72.994904],
             address: "Ruta 5 Sur 1025, Megacentro 2, Bodega 12 Puerto Montt",
-            phone: "+56 65 231 3000",
-            email: "cl.ptomontt@ksb.com"
+            phone: "+56 2 4567 8901",
+            email: "puertomontt@sucursales.cl"
         },
         "Santiago": {
             coords: [-33.347729, -70.711838],
             address: "Las Esteras Sur 2851, Quilicura Santiago",
-            phone: "+56 22 677 8300",
-            email: "cl.ksb@ksb.com"
+            phone: "+56 2 5678 9012",
+            email: "santiago@sucursales.cl"
         }
     };
 
@@ -68,21 +68,23 @@ $(document).ready(function() {
 
     function fetchStatus() {
         $.getJSON('/get_status', function(data) {
-            let tableBody = $('#ip-table-body');
-            tableBody.empty();
-            data.forEach(function(ip_info) {
+            let tableBody1 = $('#ip-table-body-1');
+            let tableBody2 = $('#ip-table-body-2');
+            tableBody1.empty();
+            tableBody2.empty();
+
+            data.forEach(function(ip_info, index) {
+                let statusClass = ip_info.Estado == 'Caída' ? 'status-caid' : (ip_info.Estado == 'Micro Corte' ? 'status-micro' : 'status-active');
+                
                 let row = `<tr>
+                    <td class="${statusClass}">
+                        <span class="status-icon" style="background-color: ${ip_info.Estado == 'Caída' ? 'red' : (ip_info.Estado == 'Micro Corte' ? 'yellow' : 'green')}"></span>
+                        <span class="status-text">${ip_info.Estado}</span>
+                    </td>
                     <td class="ip-cell" data-ip="${ip_info.IP}" data-status="${ip_info.Estado}" data-ciudad="${ip_info.Ciudad}">
                         ${ip_info.IP}
                     </td>
-                    <td class="${ip_info.Estado == 'Caída' ? 'text-danger' : 'text-success'}">
-                        <span class="status-icon" style="background-color: ${ip_info.Estado == 'Caída' ? 'red' : 'green'};"></span>
-                        <span class="status-text">${ip_info.Estado}</span>
-                    </td>
-                    <td>${ip_info.Region}</td>
                     <td>${ip_info.Ciudad}</td>
-                    <td>${ip_info.Pais}</td>
-                    <td>${ip_info.HostName}</td>
                     <td>${ip_info.Hora}</td>
                     <td class="text-center">
                         <span class="location-icon" data-ciudad="${ip_info.Ciudad}" style="cursor: pointer;">
@@ -90,7 +92,12 @@ $(document).ready(function() {
                         </span>
                     </td>
                 </tr>`;
-                tableBody.append(row);
+
+                if (index < 4) {
+                    tableBody1.append(row);
+                } else {
+                    tableBody2.append(row);
+                }
             });
 
             // Agregar evento de clic a las celdas de IP para mostrar toast
@@ -119,13 +126,13 @@ $(document).ready(function() {
     }
 
     function showToast(ciudad, ip, status) {
-        let toastClass = status == 'Caída' ? 'bg-danger toast-caid' : 'bg-success';
+        let toastClass = status == 'Caída' ? 'bg-danger toast-caid' : (status == 'Micro Corte' ? 'bg-warning' : 'bg-success');
         let iconPath = status == 'Caída' 
             ? '/static/icons/error.svg'
-            : '/static/icons/success.svg';
+            : (status == 'Micro Corte' ? '/static/icons/warning.svg' : '/static/icons/success.svg');
 
         let toast = $(
-            `<div class="toast ${toastClass}" role="alert" aria-live="assertive" aria-atomic="true" data-delay="${status == 'Caída' ? 40000 : 5000}">
+            `<div class="toast ${toastClass}" role="alert" aria-live="assertive" aria-atomic="true" data-delay="${status == 'Caída' ? 40000 : (status == 'Micro Corte' ? 10000 : 5000)}">
                 <div class="toast-header">
                     <strong class="mr-auto">Estado de la Red KSB</strong>
                     <small class="text-muted">Justo ahora</small>
@@ -134,7 +141,7 @@ $(document).ready(function() {
                     </button>
                 </div>
                 <div class="toast-body text-center">
-                    <p>La red de "${ciudad}" con la IP "${ip}" está "${status}".</p>
+                    <p>La red de "${ciudad}" con la IP "${ip}" está en estado "${status}".</p>
                     <img src="${iconPath}" class="toast-icon" alt="Icono">
                 </div>
             </div>`
@@ -151,7 +158,7 @@ $(document).ready(function() {
     setInterval(function() {
         $.getJSON('/get_status', function(data) {
             data.forEach(function(ip_info) {
-                if (ip_info.Estado === 'Caída') {
+                if (ip_info.Estado === 'Caída' || ip_info.Estado === 'Micro Corte') {
                     showToast(ip_info.Ciudad, ip_info.IP, ip_info.Estado);
                 }
             });
