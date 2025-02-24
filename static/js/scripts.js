@@ -10,40 +10,40 @@ $(document).ready(function() {
     // Coordenadas, direcciones, teléfonos y correos manuales
     var cityMarkers = {
         "Antofagasta": {
-            coords: [-23.698168, -70.419235],
-            address: "Avenida de la Minería 265, La Negra Antofagasta",
+            coords: [-23.74208, -70.30286],
+            address: "Av. Hector Gomez Cobo 10 C1 B, La Negra Antofagasta",
             phone: "+56 2 1234 5678",
-            email: "antofagasta@sucursales.cl"
+            email: "cl.antofagasta@ksb.com"
         },
         "Coquimbo": {
-            coords: [-29.971910, -71.274651],
-            address: "Calle Nueva Dos 1251, Barrio Industrial Coquimbo",
+            coords: [-29.96568, -71.26591],
+            address: "Ruta D-43 701 LT A 1 Bodega E24, Barrio Industrial Coquimbo",
             phone: "+56 2 8765 4321",
-            email: "coquimbo@sucursales.cl"
+            email: "cl.coquimbo@ksb.com"
         },
         "Concepción": {
             coords: [-36.799877, -73.073631],
             address: "Vasco Nuñez de Balboa 9060, Parque Industrial San Andrés Concepción",
             phone: "+56 2 2345 6789",
-            email: "concepcion@sucursales.cl"
+            email: "cl.concepcion@ksb.com"
         },
         "Temuco": {
             coords: [-38.767284, -72.613220],
             address: "Camino A Aeropuerto Maquehue 3081, Bodega N°4, Work Center Maquehue Temuco",
             phone: "+56 2 3456 7890",
-            email: "temuco@sucursales.cl"
+            email: "cl.temuco@ksb.com"
         },
         "Puerto Montt": {
             coords: [-41.472698, -72.994904],
             address: "Ruta 5 Sur 1025, Megacentro 2, Bodega 12 Puerto Montt",
             phone: "+56 2 4567 8901",
-            email: "puertomontt@sucursales.cl"
+            email: "cl.ptomontt@ksb.com"
         },
         "Santiago": {
             coords: [-33.347729, -70.711838],
             address: "Las Esteras Sur 2851, Quilicura Santiago",
             phone: "+56 2 5678 9012",
-            email: "santiago@sucursales.cl"
+            email: "cl.ksb@ksb.com"
         }
     };
 

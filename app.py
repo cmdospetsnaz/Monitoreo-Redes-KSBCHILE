@@ -13,12 +13,12 @@ app = Flask(__name__)
 ip_details = {
     "10.18.63.1": {"Region": "Región Antofagasta", "Ciudad": "Antofagasta", "Pais": "Chile"},
     "10.18.133.1": {"Region": "Región Coquimbo", "Ciudad": "Coquimbo", "Pais": "Chile"},
+    "10.18.61.1": {"Region": "Región Metropolitana", "Ciudad": "Santiago", "Pais": "Chile"},
     "10.18.65.1": {"Region": "Región del BioBio", "Ciudad": "Concepción", "Pais": "Chile"},
     "10.18.115.1": {"Region": "Región de la Araucania", "Ciudad": "Temuco", "Pais": "Chile"},
     "10.18.67.1": {"Region": "Región de los Lagos", "Ciudad": "Puerto Montt", "Pais": "Chile"},
     "8.242.207.9": {"Region": "CIRION", "Ciudad": "GATEWAY", "Pais": "Chile"},
-    "216.241.20.193": {"Region": "IFX", "Ciudad": "GATEWAY", "Pais": "Chile"},
-    "10.18.61.1": {"Region": "Región Metropolitana", "Ciudad": "Santiago", "Pais": "Chile"},
+    "216.241.20.193": {"Region": "IFX", "Ciudad": "GATEWAY", "Pais": "Chile"},   
 }
 
 # Diccionario para registrar los tiempos de caída y envío de correo de cada IP
@@ -82,7 +82,7 @@ def get_ip_status_and_details(ip):
 
 def monitor_network():
     while True:
-        ips = ["10.18.63.1", "10.18.133.1", "10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193", "10.18.61.1"]
+        ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1","10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193", ]
         for ip in ips:
             status = check_ip_status(ip)
             if status == "Caída":
@@ -111,7 +111,7 @@ def index():
 
 @app.route('/get_status')
 def get_status():
-    ips = ["10.18.63.1", "10.18.133.1", "10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193", "10.18.61.1"]
+    ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1","10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193", ]
     ip_info_list = [get_ip_status_and_details(ip) for ip in ips]
     return jsonify(ip_info_list)
 
