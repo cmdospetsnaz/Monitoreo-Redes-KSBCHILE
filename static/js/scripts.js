@@ -99,31 +99,31 @@ $(document).ready(function() {
                     tableBody2.append(row);
                 }
             });
-
-            // Agregar evento de clic a las celdas de IP para mostrar toast
-            $('.ip-cell').click(function() {
-                let ip = $(this).data('ip');
-                let status = $(this).data('status');
-                let ciudad = $(this).data('ciudad');
-                showToast(ciudad, ip, status);
-            });
-
-            // Agregar evento de clic al ícono de ubicación para centrar el mapa y desplazar la página
-            $('.location-icon').click(function() {
-                let ciudad = $(this).data('ciudad');
-
-                // Centrar el mapa en la ubicación correspondiente con más zoom
-                if (cityMarkers[ciudad]) {
-                    map.setView(cityMarkers[ciudad].coords, 17); // Ajusta el nivel de zoom según sea necesario
-                }
-
-                // Desplazar la página hacia el mapa
-                $('html, body').animate({
-                    scrollTop: $("#map").offset().top
-                }, 1000);
-            });
         });
     }
+
+    // Usar event delegation para manejar los clics en las celdas de IP
+    $(document).on('click', '.ip-cell', function() {
+        let ip = $(this).data('ip');
+        let status = $(this).data('status');
+        let ciudad = $(this).data('ciudad');
+        showToast(ciudad, ip, status);
+    });
+
+    // Usar event delegation para manejar los clics en los íconos de ubicación
+    $(document).on('click', '.location-icon', function() {
+        let ciudad = $(this).data('ciudad');
+
+        // Centrar el mapa en la ubicación correspondiente con más zoom
+        if (cityMarkers[ciudad]) {
+            map.setView(cityMarkers[ciudad].coords, 17); // Ajusta el nivel de zoom según sea necesario
+        }
+
+        // Desplazar la página hacia el mapa
+        $('html, body').animate({
+            scrollTop: $("#map").offset().top
+        }, 1000);
+    });
 
     function showToast(ciudad, ip, status) {
         let toastClass = status == 'Caída' ? 'bg-danger toast-caid' : (status == 'Micro Corte' ? 'bg-warning' : 'bg-success');
@@ -152,7 +152,7 @@ $(document).ready(function() {
     }
 
     // Actualizar el estado cada 10 segundos
-    setInterval(fetchStatus, 1000);
+    setInterval(fetchStatus, 10000); // Cambiado a 10 segundos para mejorar el rendimiento
 
     // Mantener mostrando el toast cada 40 segundos
     setInterval(function() {

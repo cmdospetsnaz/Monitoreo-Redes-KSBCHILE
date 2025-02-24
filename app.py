@@ -82,15 +82,18 @@ def get_ip_status_and_details(ip):
 
 def monitor_network():
     while True:
-        ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1","10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193", ]
+        ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1", "10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193"]
         for ip in ips:
             status = check_ip_status(ip)
             if status == "Caída":
                 if ip not in down_since:
                     down_since[ip] = {"first_down": datetime.now(), "last_email": None}
+                    details = get_ip_status_and_details(ip)
+                    details["Estado"] = "Micro Corte"  # Estado inicial como Micro Corte
+                    print(f"IP {ip} está en Micro Corte")
                 else:
                     elapsed = datetime.now() - down_since[ip]["first_down"]
-                    if elapsed > timedelta(seconds=5):
+                    if elapsed > timedelta(seconds=4):  # Después de 4 segundos, cambia a Caída
                         details = get_ip_status_and_details(ip)
                         details["Estado"] = "Caída"
                         if details["Estado"] == "Caída" and (down_since[ip]["last_email"] is None or datetime.now() - down_since[ip]["last_email"] > timedelta(minutes=30)):
@@ -98,7 +101,7 @@ def monitor_network():
                             down_since[ip]["last_email"] = datetime.now()
                     else:
                         details = get_ip_status_and_details(ip)
-                        details["Estado"] = "Micro Corte"
+                        details["Estado"] = "Micro Corte"  # Mantener como Micro Corte durante los primeros 4 segundos
                         print(f"IP {ip} está en Micro Corte")
             else:
                 if ip in down_since:
@@ -111,8 +114,15 @@ def index():
 
 @app.route('/get_status')
 def get_status():
-    ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1","10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193", ]
-    ip_info_list = [get_ip_status_and_details(ip) for ip in ips]
+    ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1", "10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193"]
+    ip_info_list = []
+    for ip in ips:
+        details = get_ip_status_and_details(ip)
+        if ip in down_since:
+            elapsed = datetime.now() - down_since[ip]["first_down"]
+            if elapsed <= timedelta(seconds=4):
+                details["Estado"] = "Micro Corte"  # Forzar el estado "Micro Corte" si aún no han pasado 4 segundos
+        ip_info_list.append(details)
     return jsonify(ip_info_list)
 
 @app.errorhandler(400)
