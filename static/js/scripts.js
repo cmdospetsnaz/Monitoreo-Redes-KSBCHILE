@@ -130,7 +130,13 @@ $(document).ready(function() {
         let iconPath = status == 'Caída' 
             ? '/static/icons/error.svg'
             : (status == 'Micro Corte' ? '/static/icons/warning.svg' : '/static/icons/success.svg');
-
+    
+        // Reproducir sonido de alarma si el estado es "Caída"
+        if (status === 'Caída') {
+            let alarmSound = new Audio('/static/sounds/error.mp3'); // Ruta al archivo de sonido
+            alarmSound.play(); // Reproducir el sonido
+        }
+    
         let toast = $(
             `<div class="toast ${toastClass}" role="alert" aria-live="assertive" aria-atomic="true" data-delay="${status == 'Caída' ? 40000 : (status == 'Micro Corte' ? 10000 : 5000)}">
                 <div class="toast-header">
@@ -146,13 +152,13 @@ $(document).ready(function() {
                 </div>
             </div>`
         );
-
+    
         $('.toast-container').empty().append(toast);
         toast.toast('show');
     }
 
     // Actualizar el estado cada 10 segundos
-    setInterval(fetchStatus, 10000); // Cambiado a 10 segundos para mejorar el rendimiento
+    setInterval(fetchStatus, 1000); // Cambiado a 1 segundos para mejorar el rendimiento
 
     // Mantener mostrando el toast cada 40 segundos
     setInterval(function() {
