@@ -1,11 +1,12 @@
 from flask import Flask, render_template, jsonify
 import socket
-from ping3 import ping
+import subprocess
 from datetime import datetime, timedelta
 import smtplib
 from email.mime.text import MIMEText
 import threading
 import time
+import requests
 
 app = Flask(__name__)
 
@@ -23,6 +24,17 @@ ip_details = {
 
 # Diccionario para registrar los tiempos de caída y envío de correo de cada IP
 down_since = {}
+
+# Lista para almacenar los mensajes de consola
+console_messages = []
+
+# Función para agregar mensajes a la lista de consola con fecha y hora
+def add_console_message(message):
+    """Añadir un mensaje a la lista de consola con marca de tiempo exacta, con un máximo de 100 mensajes."""
+    timestamp = datetime.now().strftime("[%d/%b/%Y %H:%M:%S]")  # Formato: [18/Mar/2025 15:44:30]
+    console_messages.append(f"{timestamp} {message}")
+    if len(console_messages) > 100:  # Limitar a los últimos 100 mensajes
+        console_messages.pop(0)
 
 # Función para enviar correos electrónicos
 def send_email(ip, details):
@@ -50,10 +62,11 @@ def send_email(ip, details):
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, msg.as_string())
-        print(f"Correo enviado para la IP {ip}")
+        add_console_message(f"Correo enviado para la IP {ip}")
     except Exception as e:
-        print(f"Error al enviar correo: {e}")
+        add_console_message(f"Error al enviar correo: {e}")
 
+# Función para obtener detalles locales de una IP
 def get_local_ip_details(ip):
     try:
         host_name = socket.gethostbyaddr(ip)[0]
@@ -64,22 +77,60 @@ def get_local_ip_details(ip):
     details["HostName"] = host_name
     return details
 
+# Función para realizar ping con subprocess
 def check_ip_status(ip):
-    response_time = ping(ip)
-    if response_time is None:
-        return "Caída"
-    else:
-        return "Activa"
+    try:
+        result = subprocess.run(
+            ["ping", "-n", "4", ip],  # Cambia a ["ping", "-c", "4", ip] en Linux/Unix
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        add_console_message(f"Ping Output for {ip}:\n{result.stdout}")
+        add_console_message(f"Ping Error for {ip}:\n{result.stderr}")
 
+        if result.returncode == 0:
+            return "Activa"
+        else:
+            return "Caída"
+    except Exception as e:
+        add_console_message(f"Error al ejecutar ping para {ip}: {e}")
+        return "Error"
+
+# Función para verificar la navegación HTTP
+def check_navigation(url):
+    try:
+        response = requests.get(url, timeout=5)
+        if response.status_code == 200:
+            return "Navegación Activa"
+        else:
+            return f"Problemas de Navegación (HTTP {response.status_code})"
+    except requests.RequestException as e:
+        return f"Problemas de Navegación: {e}"
+
+# Función para combinar estado de red y navegación
+def check_ip_status_and_navigation(ip, url):
+    network_status = check_ip_status(ip)
+    if network_status == "Activa":
+        navigation_status = check_navigation(url)
+    else:
+        navigation_status = "Sin Navegación (Red Caída)"
+    return network_status, navigation_status
+
+# Función para obtener detalles de estado de IP
 def get_ip_status_and_details(ip):
-    status = check_ip_status(ip)
+    url = "http://www.google.com"  # URL fija para navegación
+    network_status, navigation_status = check_ip_status_and_navigation(ip, url)
     details = get_local_ip_details(ip)
     current_time = datetime.now().strftime("%H:%M:%S %d-%m")
     details["Hora"] = current_time
-    details["Estado"] = status
-    details["IP"] = ip  # Añadir IP al diccionario
+    details["Estado"] = network_status
+    details["Navegación"] = navigation_status
+    details["IP"] = ip
+
     return details
 
+# Función para monitorear la red
 def monitor_network():
     while True:
         ips = ["10.18.63.1", "10.18.133.1", "10.18.61.1", "10.18.65.1", "10.18.115.1", "10.18.67.1", "8.242.207.9", "216.241.20.193"]
@@ -89,11 +140,11 @@ def monitor_network():
                 if ip not in down_since:
                     down_since[ip] = {"first_down": datetime.now(), "last_email": None}
                     details = get_ip_status_and_details(ip)
-                    details["Estado"] = "Micro Corte"  # Estado inicial como Micro Corte
-                    print(f"IP {ip} está en Micro Corte")
+                    details["Estado"] = "Micro Corte"
+                    add_console_message(f"IP {ip} está en Micro Corte")
                 else:
                     elapsed = datetime.now() - down_since[ip]["first_down"]
-                    if elapsed > timedelta(seconds=4):  # Después de 4 segundos, cambia a Caída
+                    if elapsed > timedelta(seconds=4):
                         details = get_ip_status_and_details(ip)
                         details["Estado"] = "Caída"
                         if details["Estado"] == "Caída" and (down_since[ip]["last_email"] is None or datetime.now() - down_since[ip]["last_email"] > timedelta(minutes=30)):
@@ -101,13 +152,19 @@ def monitor_network():
                             down_since[ip]["last_email"] = datetime.now()
                     else:
                         details = get_ip_status_and_details(ip)
-                        details["Estado"] = "Micro Corte"  # Mantener como Micro Corte durante los primeros 4 segundos
-                        print(f"IP {ip} está en Micro Corte")
+                        details["Estado"] = "Micro Corte"
+                        add_console_message(f"IP {ip} está en Micro Corte")
             else:
                 if ip in down_since:
                     del down_since[ip]
         time.sleep(10)
 
+# Endpoint para devolver los mensajes de consola
+@app.route('/console_logs')
+def get_console_logs():
+    return jsonify(console_messages)
+
+# Página principal
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -121,7 +178,7 @@ def get_status():
         if ip in down_since:
             elapsed = datetime.now() - down_since[ip]["first_down"]
             if elapsed <= timedelta(seconds=4):
-                details["Estado"] = "Micro Corte"  # Forzar el estado "Micro Corte" si aún no han pasado 4 segundos
+                details["Estado"] = "Micro Corte"
         ip_info_list.append(details)
     return jsonify(ip_info_list)
 

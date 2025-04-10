@@ -72,27 +72,26 @@ $(document).ready(function() {
             let tableBody2 = $('#ip-table-body-2');
             tableBody1.empty();
             tableBody2.empty();
-
+    
             data.forEach(function(ip_info, index) {
-                let statusClass = ip_info.Estado == 'Caída' ? 'status-caid' : (ip_info.Estado == 'Micro Corte' ? 'status-micro' : 'status-active');
-                
+                let statusClass = ip_info.Estado === 'Caída' ? 'status-caid' : 'status-active';
+    
                 let row = `<tr>
                     <td class="${statusClass}">
-                        <span class="status-icon" style="background-color: ${ip_info.Estado == 'Caída' ? 'red' : (ip_info.Estado == 'Micro Corte' ? 'yellow' : 'green')}"></span>
+                        <span class="status-icon" style="background-color: ${ip_info.Estado === 'Caída' ? 'red' : 'green'}"></span>
                         <span class="status-text">${ip_info.Estado}</span>
                     </td>
-                    <td class="ip-cell" data-ip="${ip_info.IP}" data-status="${ip_info.Estado}" data-ciudad="${ip_info.Ciudad}">
-                        ${ip_info.IP}
-                    </td>
+                    <td>${ip_info.IP}</td>
                     <td>${ip_info.Ciudad}</td>
                     <td>${ip_info.Hora}</td>
+                    <td>${ip_info.Navegación}</td> <!-- Mostrar navegación -->
                     <td class="text-center">
                         <span class="location-icon" data-ciudad="${ip_info.Ciudad}" style="cursor: pointer;">
                             <img src="/static/icons/location.svg" alt="Ubicación" style="width: 50px; height: 50px;">
                         </span>
                     </td>
                 </tr>`;
-
+    
                 if (index < 4) {
                     tableBody1.append(row);
                 } else {
@@ -101,6 +100,7 @@ $(document).ready(function() {
             });
         });
     }
+    
 
     // Usar event delegation para manejar los clics en las celdas de IP
     $(document).on('click', '.ip-cell', function() {

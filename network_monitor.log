@@ -1,0 +1,484 @@
+2025-03-17 13:24:29,606 - INFO - Sistema de monitoreo iniciado
+2025-03-17 13:24:29,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.61.144:5000
+2025-03-17 13:24:29,624 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:24:32,701 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:24:32,701 - INFO - Estado de la IP 10.18.63.1: Activa
+2025-03-17 13:24:35,807 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:24:35,810 - INFO - Estado de la IP 10.18.133.1: Activa
+2025-03-17 13:24:38,897 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:24:38,897 - INFO - Estado de la IP 10.18.61.1: Activa
+2025-03-17 13:26:25,529 - INFO - Sistema de monitoreo iniciado
+2025-03-17 13:26:25,545 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.61.144:5000
+2025-03-17 13:26:25,545 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:26:39,400 - INFO - 127.0.0.1 - - [17/Mar/2025 13:26:39] "[33mGET /procesar HTTP/1.1[0m" 404 -
+2025-03-17 13:26:45,351 - INFO - 127.0.0.1 - - [17/Mar/2025 13:26:45] "[33mGET /procesar HTTP/1.1[0m" 404 -
+2025-03-17 13:26:50,960 - INFO - 127.0.0.1 - - [17/Mar/2025 13:26:50] "GET / HTTP/1.1" 200 -
+2025-03-17 13:26:51,193 - INFO - 127.0.0.1 - - [17/Mar/2025 13:26:51] "[36mGET /static/icons/KSB_Logo.png HTTP/1.1[0m" 304 -
+2025-03-17 13:26:51,203 - INFO - 127.0.0.1 - - [17/Mar/2025 13:26:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-17 13:26:51,207 - INFO - 127.0.0.1 - - [17/Mar/2025 13:26:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-17 13:27:18,293 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:18] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:27:41,337 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:41] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:27:42,482 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:42] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:27:43,285 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:43] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:27:43,300 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:43] "[36mGET /static/icons/location.svg HTTP/1.1[0m" 304 -
+2025-03-17 13:27:45,037 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:45] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:27:45,551 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:45] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:27:48,019 - INFO - 127.0.0.1 - - [17/Mar/2025 13:27:48] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:28:10,806 - INFO - 127.0.0.1 - - [17/Mar/2025 13:28:10] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:28:11,904 - INFO - 127.0.0.1 - - [17/Mar/2025 13:28:11] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:28:12,635 - INFO - 127.0.0.1 - - [17/Mar/2025 13:28:12] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:46:24,845 - INFO - Sistema de monitoreo iniciado
+2025-03-17 13:46:24,863 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.61.144:5000
+2025-03-17 13:46:24,864 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:46:27,948 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:46:27,948 - INFO - Estado de la IP 10.18.63.1: Activa
+2025-03-17 13:46:31,061 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:46:31,062 - INFO - Estado de la IP 10.18.133.1: Activa
+2025-03-17 13:46:34,166 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:46:34,166 - INFO - Estado de la IP 10.18.61.1: Activa
+2025-03-17 13:46:36,535 - INFO - 127.0.0.1 - - [17/Mar/2025 13:46:36] "GET / HTTP/1.1" 200 -
+2025-03-17 13:46:36,850 - INFO - 127.0.0.1 - - [17/Mar/2025 13:46:36] "[36mGET /static/icons/KSB_Logo.png HTTP/1.1[0m" 304 -
+2025-03-17 13:46:36,868 - INFO - 127.0.0.1 - - [17/Mar/2025 13:46:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-17 13:46:36,873 - INFO - 127.0.0.1 - - [17/Mar/2025 13:46:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-03-17 13:46:37,256 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:46:37,257 - INFO - Estado de la IP 10.18.65.1: Activa
+2025-03-17 13:46:40,149 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:46:40,391 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:46:40,391 - INFO - Estado de la IP 10.18.115.1: Activa
+2025-03-17 13:46:40,602 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:46:40,606 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:46:40 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:46:43,492 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:46:43,492 - INFO - Estado de la IP 10.18.67.1: Activa
+2025-03-17 13:46:43,685 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:46:44,126 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:46:44,130 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:46:44 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:46:46,592 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:46:46,593 - INFO - Estado de la IP 8.242.207.9: Activa
+2025-03-17 13:46:47,226 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:46:47,676 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:46:48,510 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:46:48 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:46:49,667 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:46:49,668 - INFO - Estado de la IP 216.241.20.193: Activa
+2025-03-17 13:46:51,614 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:46:52,111 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:46:52,116 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:46:52 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:46:55,244 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:46:55,694 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:46:55,699 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:46:55 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:46:58,831 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:46:59,293 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:46:59,298 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:46:59 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:02,178 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:02,409 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:02,626 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:02,630 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:02 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:02,806 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:02,806 - INFO - Estado de la IP 10.18.63.1: Activa
+2025-03-17 13:47:02,878 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:02,878 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:02 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:04,181 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:04,624 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:04,625 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:04 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:04,927 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:05,197 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:05,405 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:05,407 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:05 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:05,635 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:05,636 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:05 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:05,726 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:05,931 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:05,931 - INFO - Estado de la IP 10.18.133.1: Activa
+2025-03-17 13:47:05,972 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:06,192 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:06,196 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:06 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:06,409 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:06,414 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:06 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:06,416 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:06] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:06,877 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:07,323 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:07,327 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:07 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:07,757 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:08,234 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:08,235 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:08 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:08,506 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:08,738 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:08,959 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:08,960 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:08 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:09,004 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:09,004 - INFO - Estado de la IP 10.18.61.1: Activa
+2025-03-17 13:47:09,216 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:09,220 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:09 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:09,268 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:09,582 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:09,768 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:10,069 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:10,071 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:10 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:10,440 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:10,606 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:10 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:10,889 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:10,893 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:10 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:11,307 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:11,774 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:12,037 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:12,082 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:12,083 - INFO - Estado de la IP 10.18.65.1: Activa
+2025-03-17 13:47:12,332 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:12,470 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:12,608 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:12 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:12,780 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:13,173 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:13,317 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:13 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:13,607 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:13 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:13,610 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:13,612 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:13 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:13,681 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:13,973 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:14,145 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:14,150 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:14 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:14,584 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:15,178 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:15,178 - INFO - Estado de la IP 10.18.115.1: Activa
+2025-03-17 13:47:15,425 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:15 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:15,705 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:16,205 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:16,206 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:16 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:16,439 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:16,692 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:16,699 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:16,878 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:16,879 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:16 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:17,127 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:17,239 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:17,240 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:17 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:17,249 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:17,681 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:17,686 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:17 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:17,959 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:17 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:18,272 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:18,273 - INFO - Estado de la IP 10.18.67.1: Activa
+2025-03-17 13:47:19,282 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:19,724 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:19,728 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:19 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:19,991 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:20,330 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:20,479 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:20,481 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:20 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:20,812 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:20,878 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:20,880 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:20 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:21,079 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:21,264 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:21,269 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:21 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:21,378 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:21,378 - INFO - Estado de la IP 8.242.207.9: Activa
+2025-03-17 13:47:21,537 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:21,541 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:21 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:22,369 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:22,838 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:22,840 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:22 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:22,854 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:23,323 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:23,325 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:23 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:23,617 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:23,996 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:24,084 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:24,087 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:24 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:24,363 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:24,442 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:24,443 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:24 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:24,454 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:24,455 - INFO - Estado de la IP 216.241.20.193: Activa
+2025-03-17 13:47:24,632 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:24,795 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:24,795 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:24 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:25,106 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:25,111 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:25 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:25,934 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:26,390 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:26,393 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:26 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:26,420 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:26,872 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:26,874 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:26 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:27,192 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:27,535 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:27,651 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:27,653 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:27 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:27,878 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:27,978 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:27,979 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:27 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:28,238 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:28,320 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:28,324 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:28 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:28,325 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:28] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:28,331 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:28] "GET /logs HTTP/1.1" 200 -
+2025-03-17 13:47:28,685 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:28,689 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:28 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:29,506 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:29,938 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:29,939 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:29 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:29,967 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:30,513 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:30,517 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:30 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:30,518 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:30] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:30,755 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:31,074 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:31,221 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:31,221 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:31 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:31,222 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:31] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:31,465 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:31,526 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:31,527 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:31 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:31,527 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:31] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:31,770 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:32,150 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:32,153 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:32 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:32,206 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:32,206 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:32 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:33,012 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:33,449 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:33,450 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:33 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:33,633 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:34,082 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:34,083 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:34 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:34,304 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:34,631 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:34,785 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:34,785 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:34 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:35,239 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:35,276 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:35,541 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:35,542 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:35 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:35,709 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:35,713 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:35 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:35,734 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:35,738 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:35 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:35,739 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:35] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:35,745 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:35] "[36mGET /static/icons/location.svg HTTP/1.1[0m" 304 -
+2025-03-17 13:47:36,522 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:36,973 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:36,974 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:36 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:36,975 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:36] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:37,160 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:37,548 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:37,548 - INFO - Estado de la IP 10.18.63.1: Activa
+2025-03-17 13:47:37,645 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:37,646 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:37 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:37,869 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:38,337 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:38,338 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:38 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:38,623 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:38,787 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:38,836 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:39,075 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:39,075 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:39 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:39,294 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:39,296 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:39,298 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:39 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:40,067 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:47:40,133 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:40 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:40,565 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:40,566 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:40 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:47:40,634 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:40,634 - INFO - Estado de la IP 10.18.133.1: Activa
+2025-03-17 13:47:40,717 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:41,186 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:41,406 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:41,867 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:42,027 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:42 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:42,147 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:42,400 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:42,599 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:42,694 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:42 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:42,835 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:42,844 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:42 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:43,224 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:43,440 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:43 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:43,667 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:47:43,700 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:43,705 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:43 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:43,716 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:43,717 - INFO - Estado de la IP 10.18.61.1: Activa
+2025-03-17 13:47:44,127 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:44,129 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:44 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:47:45,121 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:45,591 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:45,593 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:45 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:45,806 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:45,924 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:46,255 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:46,256 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:46 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:46,406 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:46,559 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:46,813 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:46,813 - INFO - Estado de la IP 10.18.65.1: Activa
+2025-03-17 13:47:46,821 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:47,023 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:47,026 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:47 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:47,235 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:47:47,246 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:47 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:47,256 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:47,261 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:47 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:47,695 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:48,545 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:48 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:47:48,709 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:49,210 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:49,213 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:49 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:49,364 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:49,822 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:49,824 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:49 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:49,905 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:49,905 - INFO - Estado de la IP 10.18.115.1: Activa
+2025-03-17 13:47:50,130 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:50,347 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:50,372 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:50,568 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:50,570 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:50 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:50,786 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:50,789 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:50 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:50,810 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:50,814 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:50 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:51,677 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:47:52,140 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:52,141 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:52 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:47:52,338 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:52,809 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:52,812 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:52 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:52,953 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:53,001 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:53,001 - INFO - Estado de la IP 10.18.67.1: Activa
+2025-03-17 13:47:53,411 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:53,413 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:53 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:53,718 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:53,891 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:53,897 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:54,198 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:54,199 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:54 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:54,358 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:54,359 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:54,360 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:54 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:54,364 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:54 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:55,226 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:47:55,662 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:55,663 - INFO - Detalles de la IP 10.18.115.1: {'Region': 'Región de la Araucania', 'Ciudad': 'Temuco', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:55 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.115.1'}
+2025-03-17 13:47:55,916 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:56,078 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:56,079 - INFO - Estado de la IP 8.242.207.9: Activa
+2025-03-17 13:47:56,468 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:56,469 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:56 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:56,517 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:56,952 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:56,953 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:56 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:57,285 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:47:57,454 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:57,476 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:57,742 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:57,743 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:47:57 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:47:57,895 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:57,899 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:57 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:57,900 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:57] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:47:57,930 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:57,933 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:57 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:58,793 - INFO - Ping exitoso para la IP 10.18.67.1
+2025-03-17 13:47:59,161 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:59,161 - INFO - Estado de la IP 216.241.20.193: Activa
+2025-03-17 13:47:59,228 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:59,230 - INFO - Detalles de la IP 10.18.67.1: {'Region': 'Región de los Lagos', 'Ciudad': 'Puerto Montt', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:59 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.67.1'}
+2025-03-17 13:47:59,556 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:47:59,994 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:47:59,994 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:47:59 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:47:59,995 - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:59] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:48:00,032 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:48:00,498 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:00,499 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:00 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:48:00,499 - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:00] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:48:00,855 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:48:00,989 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:01,009 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:48:01,349 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:01,351 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:01 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:48:01,353 - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:01] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:48:01,477 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:01,482 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:01 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:48:01,569 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:01,570 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:48:01 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:48:02,326 - INFO - Ping exitoso para la IP 8.242.207.9
+2025-03-17 13:48:02,780 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:02,782 - INFO - Detalles de la IP 8.242.207.9: {'Region': 'CIRION', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'host-8-242-207-9.centurylink.cl', 'Hora': '13:48:02 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '8.242.207.9'}
+2025-03-17 13:48:03,100 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:03,551 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:03,553 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:03 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:48:04,472 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:04,577 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:04,654 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:48:04,929 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:04,933 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:04 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:48:05,047 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:05,050 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:05 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:48:05,232 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:05,236 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:05 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:48:05,237 - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:05] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:48:05,875 - INFO - Ping exitoso para la IP 216.241.20.193
+2025-03-17 13:48:06,347 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:06,349 - INFO - Detalles de la IP 216.241.20.193: {'Region': 'IFX', 'Ciudad': 'GATEWAY', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:06 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '216.241.20.193'}
+2025-03-17 13:48:06,350 - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:06] "GET /get_status HTTP/1.1" 200 -
+2025-03-17 13:48:06,649 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:07,122 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:07,123 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:07 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:48:07,384 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:07,830 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:07,834 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:07 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:48:08,028 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:08,127 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:48:08,350 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:08,469 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:08,471 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:08 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:48:08,708 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:08,779 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:08,781 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:08 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:48:09,461 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:09,549 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:09 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:48:09,930 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:09,932 - INFO - Detalles de la IP 10.18.63.1: {'Region': 'Región Antofagasta', 'Ciudad': 'Antofagasta', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:09 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.63.1'}
+2025-03-17 13:48:10,207 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:48:10,675 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:10,937 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:11,387 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:11,393 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:11 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:48:11,517 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:11 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:48:11,553 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:48:11,896 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:12,024 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:12,268 - INFO - Ping exitoso para la IP 10.18.63.1
+2025-03-17 13:48:12,268 - INFO - Estado de la IP 10.18.63.1: Activa
+2025-03-17 13:48:12,357 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:12,358 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:12 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:48:12,631 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:48:12,855 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:12 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:48:13,037 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:13,099 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:13,102 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:13 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:48:13,539 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:13,541 - INFO - Detalles de la IP 10.18.133.1: {'Region': 'Región Coquimbo', 'Ciudad': 'Coquimbo', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:13 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.133.1'}
+2025-03-17 13:48:14,484 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:48:14,627 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:48:15,054 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:15,087 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:15,088 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:15 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}
+2025-03-17 13:48:15,383 - INFO - Ping exitoso para la IP 10.18.133.1
+2025-03-17 13:48:15,384 - INFO - Estado de la IP 10.18.133.1: Activa
+2025-03-17 13:48:15,445 - INFO - Ping exitoso para la IP 10.18.61.1
+2025-03-17 13:48:15,874 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:15,902 - INFO - Detalles de la IP 10.18.61.1: {'Region': 'Región Metropolitana', 'Ciudad': 'Santiago', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:15 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.61.1'}
+2025-03-17 13:48:15,945 - INFO - Ping exitoso para la IP 10.18.65.1
+2025-03-17 13:48:16,191 - INFO - Ping exitoso para la IP 10.18.115.1
+2025-03-17 13:48:16,377 - INFO - Navegación activa hacia http://www.google.com
+2025-03-17 13:48:16,378 - INFO - Detalles de la IP 10.18.65.1: {'Region': 'Región del BioBio', 'Ciudad': 'Concepción', 'Pais': 'Chile', 'HostName': 'Desconocido', 'Hora': '13:48:16 17-03', 'Estado': 'Activa', 'Navegación': 'Navegación Activa', 'IP': '10.18.65.1'}

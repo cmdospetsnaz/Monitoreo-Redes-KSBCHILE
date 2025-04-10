@@ -26,6 +26,7 @@
                                 <th>IP</th>
                                 <th>Ciudad</th>
                                 <th>Hora</th>
+                                <th>Navegación</th>
                                 <th>Ubicación</th>
                             </tr>
                         </thead>
@@ -43,6 +44,7 @@
                                 <th>IP</th>
                                 <th>Ciudad</th>
                                 <th>Hora</th>
+                                <th>Navegación</th>
                                 <th>Ubicación</th>
                             </tr>
                         </thead>
@@ -52,7 +54,13 @@
                 </div>
             </div>
         </div>
-        <div id="map"></div>
+        <div id="map" style="height: 500px;"></div>
+
+        <!-- Consola Dinámica -->
+        <div class="mt-4">
+            <h3>Consola en Tiempo Real</h3>
+            <pre id="console-log" style="background-color: #f8f9fa; padding: 10px; border: 1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+        </div>
     </div>
 
     <!-- Contenedor de Toasts -->
@@ -63,6 +71,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+    <script>
+        $(document).ready(function() {
+            function fetchConsoleLogs() {
+                $.getJSON('/console_logs', function(data) {
+                    const logContainer = $('#console-log');
+                    logContainer.text(data.join('\n')); // Mostrar los mensajes de consola en el contenedor
+                    logContainer.scrollTop(logContainer[0].scrollHeight); // Hacer scroll al final automáticamente
+                });
+            }
+
+            // Actualizar la consola cada 2 segundos
+            setInterval(fetchConsoleLogs, 2000);
+        });
+    </script>
+
     <footer>
         &copy; Hecho por Javier Aravena Contacto: jav.aravena.ara@gmail.com Para KSBCHILE 2025
     </footer>
